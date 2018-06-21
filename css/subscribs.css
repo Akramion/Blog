@@ -1,0 +1,23 @@
+.subscribs{
+	width: 100%;
+	padding: 10px 10px 10px 15px;
+	line-height: 60px;
+	display: flex;
+	border: none;
+	background: #212026;
+	box-sizing: border-box;
+}
+
+.subscribs *{
+	margin: 0;
+	padding: 0;
+}
+
+.subscribs .logo{
+	width: auto;
+}
+
+.subscribs h3{
+	line-height: 60px;
+	margin-right: 15px;
+}

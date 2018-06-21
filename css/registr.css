@@ -1,0 +1,61 @@
+.form-wrapper{
+	text-align: center;
+	height: 100vh;
+	display: flex;
+}
+
+form{
+	margin: auto;
+	padding: 30px;
+	border: 2px solid #68a851;
+	border-radius: 2px;
+	background: #212026;
+}
+
+label{
+	color: #DCDCDC;
+	margin-bottom: 5px;
+}
+
+input{
+	margin: 0 auto 15px auto;
+	display: block;
+}
+
+input[type="submit"]{
+	display: block;
+	padding: 5px 7px 5px 7px;
+	border: 1px solid #68a851;
+	color: #68a851;
+	text-align: center;
+	background: #212026;
+	border-radius: 1px;
+	transition: .3s background;
+
+}
+
+input[type="submit"]:hover {
+	background: #68a851;
+	color: #fff;
+	text-decoration: none;
+}
+
+textarea{
+	width: 700px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: block;
+	background: #DCDCDC;
+}
+
+/*ADD POST*/
+
+.title{
+	height: 30px;
+	text-align: center;
+}
+
+.postText{
+	height: 120px;
+}
